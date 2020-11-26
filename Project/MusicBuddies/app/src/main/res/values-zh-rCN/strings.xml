@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- sign in  -->
+    <string name="app_name">音乐伙伴</string>
+    <string name="email">邮箱</string>
+    <string name="password">密码</string>
+    <string name="sign_in">登入</string>
+    <string name="sign_up">注册</string>
+
+    <!-- sign up  -->
+    <string name="name">姓名</string>
+    <string name="confirm_password">确认密码</string>
+
+    <!-- sign up profile 1  -->
+    <string name="profile">个人资料</string>
+    <string name="upload_photo">上传图片</string>
+    <string name="gender">性别</string>
+    <string name="birthday">生日</string>
+    <string name="ddmmyy">日/月/年</string>
+    <string name="favorite_genre">喜爱的曲风</string>
+    <string name="favorite_artist">喜爱的艺人</string>
+    <string name="bio">个人简介</string>
+    <string name="next"> 》</string>
+
+    <!-- sign up profile 2  -->
+    <string name="add_your_music_playlists">添加歌单</string>
+    <string name="add_spotify_playlist">+ SPOTIFY 歌单</string>
+    <string name="previous">《 </string>
+    <string name="pause_playlist">暂停歌单</string>
+    <string name="play_playlist">播放歌单</string>
+    <string name="currently_playing">正在播放：</string>
+    <string name="none">无</string>
+    <string name="enter_youtube_playlist_url">输入 Youtube 歌单的 URL:</string>
+    <string name="enter_spotify_playlist_url">输入 Spotify 歌单的 URL:</string>
+    <string name="playlist_must_be_public">歌单必须是公开的。</string>
+    <string name="add_youtube_playlist">+ YOUTUBE 歌单</string>
+    <string name="confirm">确认</string>
+    <string-array name="genders">
+        <item>其他</item>
+        <item>女</item>
+        <item>男</item>
+    </string-array>
+    <string name="toast">请在您的手机上登陆Spotify的应用</string>
+
+    <!-- edit preferences  -->
+    <string name="preferences">音乐伙伴的喜好</string>
+    <string name="preference_info">我想遇到···</string>
+    <string name="genre">曲风</string>
+    <string-array name="gendersPref">
+        <item>无所谓</item>
+        <item>女</item>
+        <item>男</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="genres">
+        <item>无所谓</item>
+        <item>流行</item>
+        <item>乡村</item>
+        <item>摇滚</item>
+        <item>爵士</item>
+        <item>民谣</item>
+        <item>电子</item>
+        <item>朋克</item>
+        <item>布鲁士</item>
+        <item>器乐</item>
+        <item>福音</item>
+        <item>独立</item>
+    </string-array>
+
+    <!-- edit profile  -->
+    <string name="edit_profile">编辑个人资料</string>
+
+    <!-- all chats  -->
+    <string name="chats">对话</string>
+    <string name="match">配对</string>
+
+    <!-- swipe page  -->
+    <string name="find_buddies">找寻音乐伙伴</string>
+    <string name="age">年龄</string>
+    <string name="distance">距离</string>
+    <string name="playlists">歌单</string>
+    <string name="play_youtube">播放 YOUTUBE</string>
+
+    <string name="play_spotify_playlist">播放 Spotify 歌单</string>
+    <string name="pause_spotify_playlist">暂停 Spotify 歌单</string>
+    <string name= "swipe_left">往右滑动来点赞</string>
+    <string name= "swipe_right">往左滑动看下一位</string>
+
+    <!-- settings  -->
+    <string name="settings">设置</string>
+    <string name="delete_account">删除账号</string>
+    <string name="logout">登出账号</string>
+
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+
+    <!-- sliding / hamburger menu  -->
+    <string name="edit_preferences">编辑对伙伴的喜好</string>
+
+    <!-- Toasts  -->
+    <string name="you_cant_send_empty_messages">您不能发送空消息</string>
+    <string name="preferences_updated">喜好设定已更新</string>
+    <string name="playlist_url_is_invalid">歌单URL无效</string>
+    <string name="profile_updated">个人资料已更新</string>
+    <string name="image_uploaded">图片已上传</string>
+    <string name="image_not_uploaded">图片上传失败</string>
+    <string name="press_play_to_listen">请按播放来听音乐</string>
+    <string name="account_deleted">账号已删除</string>
+    <string name="unable_to_delete_account">无法删除账号，请重新登录。</string>
+    <string name="please_enter_your_email">请输入您的电子邮箱</string>
+    <string name="please_enter_your_password">请输入您的密码</string>
+    <string name="authentication_failed">验证失败</string>
+    <string name="password_is_too_short">密码太短</string>
+    <string name="password_is_not_the_same">密码不一致</string>
+    <string name="please_fill_in_empty_fields">请填写空白字段</string>
+    <string name="youtube_playlist_updated">Youtube 歌单已更新</string>
+    <string name="no_playlist_available">没有可欣赏的的歌单</string>
+    <string name="no_more_users">没有更多用户了</string>
+    <string name="input_spotify">请输入Spotify歌单</string>
+    <string name="input_youtube">请输入YouTube歌单</string>
+
+</resources>

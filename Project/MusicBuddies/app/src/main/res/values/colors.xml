@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="navyBlue">#171F65</color>
+    <color name="titleColor">#FFA24B</color>
+    <color name="cardColor">#B5F2E7</color>
+    <color name="textColor">#171F65</color>
+    <color name="btnColor">#FFFFFF</color>
+</resources>

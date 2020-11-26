@@ -1,0 +1,123 @@
+<resources>
+    <!-- sign in  -->
+    <string name="app_name">MUSIC BUDDIES</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+
+    <!-- sign up  -->
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <!-- sign up profile 1  -->
+    <string name="profile">PROFILE</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="gender">Gender</string>
+    <string name="birthday">Birthday</string>
+    <string name="ddmmyy">DD/MM/YYYY</string>
+    <string name="favorite_genre">Favorite Genre</string>
+    <string name="favorite_artist">Favorite Artist</string>
+    <string name="bio">Bio</string>
+    <string name="next">NEXT</string>
+
+    <!-- sign up profile 2  -->
+    <string name="add_your_music_playlists">Add Your Music Playlists</string>
+    <string name="add_spotify_playlist">+ SPOTIFY PLAYLIST</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="pause_playlist">PAUSE PLAYLIST</string>
+    <string name="play_playlist">PLAY PLAYLIST</string>
+    <string name="currently_playing">Currently Playing:</string>
+    <string name="none">None</string>
+    <string name="enter_youtube_playlist_url">Enter Youtube Playlist URL:</string>
+    <string name="enter_spotify_playlist_url">Enter Spotify Playlist URL:</string>
+    <string name="playlist_must_be_public">Playlist must be public.</string>
+    <string name="add_youtube_playlist">+ YOUTUBE PLAYLIST</string>
+    <string name="confirm">Confirm</string>
+    <string-array name="genders">
+        <item>Other</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+    <string name="toast">To play a playlist from Spotify, please log in to the Spotify app on your device</string>
+
+    <!-- edit preferences  -->
+    <string name="preferences">PREFERENCES</string>
+    <string name="preference_info">I would like to meet...</string>
+    <string name="genre">Genre</string>
+    <string-array name="gendersPref">
+        <item>Any</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="genres">
+        <item>Any</item>
+        <item>Pop</item>
+        <item>Country</item>
+        <item>Rock</item>
+        <item>Jazz</item>
+        <item>Folk</item>
+        <item>Electronic</item>
+        <item>Punk</item>
+        <item>Blues</item>
+        <item>Instrumental</item>
+        <item>Gospel</item>
+        <item>Indie</item>
+    </string-array>
+
+    <!-- edit profile  -->
+    <string name="edit_profile">EDIT PROFILE</string>
+
+    <!-- all chats  -->
+    <string name="chats">CHATS</string>
+    <string name="match">MATCHES</string>
+
+    <!-- swipe page  -->
+    <string name="find_buddies">FIND BUDDIES</string>
+    <string name="age">Age</string>
+    <string name="distance">Distance</string>
+    <string name="playlists">PLAYLISTS</string>
+    <string name="play_youtube">PLAY YOUTUBE</string>
+
+    <string name="play_spotify_playlist">PLAY SPOTIFY PLAYLIST</string>
+    <string name="pause_spotify_playlist">PAUSE SPOTIFY PLAYLIST</string>
+    <string name= "swipe_left">Swipe Right to Like</string>
+    <string name= "swipe_right">Swipe Left to see Next</string>
+
+
+    <!-- settings  -->
+    <string name="settings">SETTINGS</string>
+    <string name="delete_account">DELETE ACCOUNT</string>
+    <string name="logout">LOG OUT</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- sliding / hamburger menu  -->
+    <string name="edit_preferences">EDIT PREFERENCES</string>
+
+    <!-- Toasts  -->
+    <string name="you_cant_send_empty_messages">You can\'t send empty messages.</string>
+    <string name="preferences_updated">Preferences Updated</string>
+    <string name="playlist_url_is_invalid">Playlist URL is invalid</string>
+    <string name="profile_updated">Profile Updated</string>
+    <string name="image_uploaded">Image Uploaded</string>
+    <string name="image_not_uploaded">Image Not Uploaded</string>
+    <string name="press_play_to_listen">Press Play To Listen!</string>
+    <string name="account_deleted">Account deleted</string>
+    <string name="unable_to_delete_account">Unable to delete Account. Log in again to Delete.</string>
+    <string name="please_enter_your_email">Please enter your email.</string>
+    <string name="please_enter_your_password">Please enter your password.</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="password_is_too_short">Password is too short</string>
+    <string name="password_is_not_the_same">Password is not the same</string>
+    <string name="please_fill_in_empty_fields">Please fill in empty fields</string>
+    <string name="youtube_playlist_updated">Youtube Playlist Updated</string>
+    <string name="no_playlist_available">No Playlist Available</string>
+    <string name="no_more_users">No more users</string>
+    <string name="input_spotify">Please input a Spotify Playlist</string>
+    <string name="input_youtube">Please input a Youtube Playlist</string>
+
+</resources>

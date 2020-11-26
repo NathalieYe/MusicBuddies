@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SwipeActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtVwFindBuddies"
+            android:layout_width="298dp"
+            android:layout_height="66dp"
+            android:text="@string/find_buddies"
+            android:textAlignment="center"
+            android:textColor="@color/titleColor"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toTopOf="@+id/vwBuddyBox"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <View
+            android:id="@+id/vwBuddyBox"
+            android:layout_width="344dp"
+            android:layout_height="552dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bigcardbox"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.614"
+            tools:context=".MyActivity" />
+
+
+        <LinearLayout
+            android:id="@+id/lnBuddy"
+            android:layout_width="321dp"
+            android:layout_height="502dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/vwBuddyBox"
+            app:layout_constraintEnd_toEndOf="@+id/vwBuddyBox"
+            app:layout_constraintStart_toStartOf="@+id/vwBuddyBox"
+            app:layout_constraintTop_toBottomOf="@+id/txtVwFindBuddies">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/buddyProfilePic"
+                android:layout_width="152dp"
+                android:layout_height="141dp"
+                android:src="@drawable/profilebubble"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:id="@+id/txtVwBuddyName"
+                android:layout_width="154dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/textColor"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/txtVwBuddyGender"
+                    android:layout_width="98dp"
+                    android:layout_height="39dp"
+                    android:gravity="center"
+                    android:text="@string/gender"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/txtBuddyAge"
+                    app:layout_constraintHorizontal_bias="0.703"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.452" />
+
+                <TextView
+                    android:id="@+id/txtBuddyGender"
+                    android:layout_width="195dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:elevation="4dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.75"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.454" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/txtVwBuddyAge"
+                    android:layout_width="98dp"
+                    android:layout_height="39dp"
+                    android:gravity="center"
+                    android:text="@string/age"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/txtBuddyAge"
+                    app:layout_constraintHorizontal_bias="0.703"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.452" />
+
+                <TextView
+                    android:id="@+id/txtBuddyAge"
+                    android:layout_width="195dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:elevation="4dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.75"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.454" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtVwBuddyFavGenre"
+                    android:layout_width="98dp"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:text="@string/favorite_genre"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.146"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.587" />
+
+                <TextView
+                    android:id="@+id/txtBuddyFavGenre"
+                    android:layout_width="195dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:elevation="4dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.75"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.594" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtVwBuddyFavArtist"
+                    android:layout_width="102dp"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:text="@string/favorite_artist"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.145"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.653" />
+
+                <TextView
+                    android:id="@+id/txtBuddyFavArtist"
+                    android:layout_width="195dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:elevation="4dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.75"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.657" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtVwBuddyBio"
+                    android:layout_width="102dp"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:text="@string/bio"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.135"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.717" />
+
+                <TextView
+                    android:id="@+id/txtBuddyBio"
+                    android:layout_width="202dp"
+                    android:layout_height="79dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:elevation="4dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.775"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.756" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnPlaylists"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="@string/playlists"
+                android:textColor="@color/btnColor" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/swipeRight"
+            android:layout_width="194dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/swipe_right"
+            android:textColor="@color/titleColor"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/swipeLeft"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.995" />
+
+        <TextView
+            android:id="@+id/swipeLeft"
+            android:layout_width="178dp"
+            android:layout_height="47dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/swipe_left"
+            android:textColor="@color/titleColor"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.995" />
+
+        <View
+            android:id="@+id/vwBox"
+            android:layout_width="344dp"
+            android:layout_height="552dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bigcardbox"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.559" />
+
+
+        <LinearLayout
+            android:id="@+id/lnPlaylist"
+            android:layout_width="297dp"
+            android:layout_height="449dp"
+            android:elevation="4sp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/vwBox"
+            app:layout_constraintEnd_toEndOf="@+id/vwBox"
+            app:layout_constraintStart_toStartOf="@+id/vwBox"
+            app:layout_constraintTop_toTopOf="@+id/vwBox">
+
+            <TextView
+                android:id="@+id/txtPlaylist"
+                android:layout_width="288dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="@string/playlists"
+                android:textColor="@color/titleColor"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnPlay"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="@string/play_spotify_playlist"
+                android:textColor="@color/btnColor" />
+
+            <TextView
+                android:id="@+id/txtCurrentlyPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="4sp"
+                android:text="@string/currently_playing"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:id="@+id/txtCurrentSong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/none"
+                android:gravity="center"
+                android:textColor="@color/textColor" />
+
+            <LinearLayout
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:showDividers="middle">
+
+                <Button
+                    android:id="@+id/btnPrevious"
+                    android:layout_width="67dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/button"
+                    android:padding="8dp"
+                    android:text="@string/previous"
+                    android:textColor="@color/btnColor"
+                    android:textSize="10dp" />
+
+
+                <Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="66dp"
+                    android:layout_height="29dp"
+                    android:background="@drawable/button"
+                    android:text="@string/next"
+                    android:textColor="@color/btnColor"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnBuddyPlayYoutube"
+                android:layout_width="141dp"
+                android:layout_height="44dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:background="@drawable/button"
+                android:text="@string/play_youtube"
+                android:textColor="@color/btnColor" />
+
+            <LinearLayout
+                android:id="@+id/lnYoutube"
+                android:layout_width="271dp"
+                android:layout_height="149dp"
+                android:orientation="vertical">
+
+                <fragment
+                    android:id="@+id/ytbPlaylist"
+                    android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/cardColor"
+                    android:backgroundTint="@color/cardColor" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="141dp"
+                android:layout_height="44dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/button"
+                android:text="Cancel"
+                android:textColor="@color/btnColor" />
+
+        </LinearLayout>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:background="@color/btnColor"
+        app:itemTextColor="@color/navyBlue"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_drawer_menu" />
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+
+
+

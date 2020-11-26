@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "12672464638",
+    "firebase_url": "https://music-buddies.firebaseio.com",
+    "project_id": "music-buddies",
+    "storage_bucket": "music-buddies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12672464638:android:6c8c2653c6278e5fa997af",
+        "android_client_info": {
+          "package_name": "com.example.musicbuddies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12672464638-goshnr8evi92m9upt1mcagbsr146hq9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.musicbuddies",
+            "certificate_hash": "59a8c399b634548fa80e4391a2f5829536d41dde"
+          }
+        },
+        {
+          "client_id": "12672464638-j9gjt4qasnfr7h91j9r6mf1q8fjfds5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvj_LyLA2_L2omLLN9qBVHE_NeMveqeyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12672464638-j9gjt4qasnfr7h91j9r6mf1q8fjfds5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

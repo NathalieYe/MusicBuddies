@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpProfile1">
+
+
+    <TextView
+        android:id="@+id/txtVwProfile"
+        android:layout_width="298dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/profile"
+        android:textAlignment="center"
+        android:textColor="@color/titleColor"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/vwBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/vwBox"
+        android:layout_width="356dp"
+        android:layout_height="608dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bigcardbox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="152dp"
+        android:layout_height="141dp"
+        android:src="@drawable/profilebubble"
+        app:layout_constraintBottom_toTopOf="@+id/txtVwName"
+        app:layout_constraintEnd_toEndOf="@+id/vwBox"
+        app:layout_constraintStart_toStartOf="@+id/vwBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwProfile"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingClass" />
+
+    <TextView
+        android:id="@+id/txtVwUploadPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_photo"
+        app:layout_constraintBottom_toBottomOf="@+id/profileImageView"
+        app:layout_constraintEnd_toEndOf="@+id/profileImageView"
+        app:layout_constraintStart_toStartOf="@+id/profileImageView"
+        app:layout_constraintTop_toTopOf="@+id/profileImageView" />
+
+
+    <TextView
+        android:id="@+id/txtVwName"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBox"
+        app:layout_constraintEnd_toEndOf="@+id/vwBox"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/vwBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwProfile"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <TextView
+        android:id="@+id/txtVwBirthday"
+        android:layout_width="98dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="@string/birthday"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtVwGenres"
+        app:layout_constraintEnd_toStartOf="@+id/txtBirthday"
+        app:layout_constraintStart_toStartOf="@+id/vwBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwProfile"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <TextView
+        android:id="@+id/txtVwGender"
+        android:layout_width="98dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="@string/gender"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtVwBirthday"
+        app:layout_constraintEnd_toStartOf="@+id/spGender"
+        app:layout_constraintStart_toStartOf="@+id/vwBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwProfile"
+        app:layout_constraintVertical_bias="0.959" />
+
+    <TextView
+        android:id="@+id/txtVwGenres"
+        android:layout_width="96dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:text="@string/favorite_genre"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtVwArtists"
+        app:layout_constraintEnd_toStartOf="@+id/spGenres"
+        app:layout_constraintHorizontal_bias="0.704"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwProfile"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <TextView
+        android:id="@+id/txtVwArtists"
+        android:layout_width="97dp"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:text="@string/favorite_artist"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtVwBio"
+        app:layout_constraintEnd_toStartOf="@+id/txtArtists"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="@+id/vwBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwProfile"
+        app:layout_constraintVertical_bias="0.93" />
+
+    <TextView
+        android:id="@+id/txtVwBio"
+        android:layout_width="102dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="467dp"
+        android:gravity="center"
+        android:text="@string/bio"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBox"
+        app:layout_constraintEnd_toStartOf="@+id/txtBio"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="@+id/vwBox"
+        app:layout_constraintTop_toTopOf="@+id/vwBox"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Spinner
+        android:id="@+id/spGender"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/inputbox"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBox"
+        app:layout_constraintEnd_toEndOf="@+id/vwBox"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="@+id/vwBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwName"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/txtBirthday"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/inputbox"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:hint="@string/ddmmyy"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBox"
+        app:layout_constraintEnd_toEndOf="@+id/vwBox"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="@+id/vwBox"
+        app:layout_constraintTop_toBottomOf="@+id/spGender"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <EditText
+        android:id="@+id/txtArtists"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/inputbox"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBox"
+        app:layout_constraintEnd_toEndOf="@+id/vwBox"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="@+id/vwBox"
+        app:layout_constraintTop_toBottomOf="@+id/spGenres"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <Spinner
+        android:id="@+id/spGenres"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/inputbox"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBox"
+        app:layout_constraintEnd_toEndOf="@+id/vwBox"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="@+id/vwBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtBirthday"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <EditText
+        android:id="@+id/txtBio"
+        android:layout_width="196dp"
+        android:layout_height="84dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/biginputbox"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBox"
+        app:layout_constraintEnd_toEndOf="@+id/vwBox"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="@+id/vwBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwProfile"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="141dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button"
+        android:text="@string/next"
+        android:textColor="@color/btnColor"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBox"
+        app:layout_constraintEnd_toEndOf="@+id/vwBox"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/vwBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtBio"
+        app:layout_constraintVertical_bias="0.235" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-785961698/MusicBuddies.iml" filepath="$PROJECT_DIR$/.idea/modules/-785961698/MusicBuddies.iml" group="MusicBuddies" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MusicBuddies-app.iml" filepath="$PROJECT_DIR$/.idea/modules/MusicBuddies-app.iml" group="MusicBuddies/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MusicBuddies.app.iml" filepath="$PROJECT_DIR$/.idea/modules/MusicBuddies.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-785961698/Project-MusicBuddies.iml" filepath="$PROJECT_DIR$/.idea/modules/-785961698/Project-MusicBuddies.iml" group="MusicBuddies" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Project-MusicBuddies-app.iml" filepath="$PROJECT_DIR$/.idea/modules/Project-MusicBuddies-app.iml" group="MusicBuddies/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-485450385/Project.MusicBuddies.iml" filepath="$PROJECT_DIR$/.idea/modules/-485450385/Project.MusicBuddies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="MusicBuddies/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-785961698/cs591-Project-MusicBuddies.iml" filepath="$PROJECT_DIR$/.idea/modules/-785961698/cs591-Project-MusicBuddies.iml" group="MusicBuddies" />
+    </modules>
+  </component>
+</project>

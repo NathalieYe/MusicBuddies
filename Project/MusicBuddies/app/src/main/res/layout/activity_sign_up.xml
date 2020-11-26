@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/txtVwSignUp"
+        android:layout_width="298dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="@string/sign_up"
+        android:textColor="@color/titleColor"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/vvSignupBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <View
+        android:id="@+id/vvSignupBox"
+        android:layout_width="340dp"
+        android:layout_height="348dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/cardbox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+
+    <TextView
+        android:id="@+id/txtVwName"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vvSignupBox"
+        app:layout_constraintEnd_toStartOf="@+id/txtName"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintStart_toStartOf="@+id/vvSignupBox"
+        app:layout_constraintTop_toTopOf="@+id/vvSignupBox"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <TextView
+        android:id="@+id/txtVwEmail"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="@string/email"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vvSignupBox"
+        app:layout_constraintEnd_toStartOf="@+id/txtEmail"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="@+id/vvSignupBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwName"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <TextView
+        android:id="@+id/txtVwPassword"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="@string/password"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vvSignupBox"
+        app:layout_constraintEnd_toStartOf="@+id/txtPassword"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="@+id/vvSignupBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwEmail"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <TextView
+        android:id="@+id/txtVwConfirmPass"
+        android:layout_width="96dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:text="@string/confirm_password"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vvSignupBox"
+        app:layout_constraintEnd_toStartOf="@+id/txtConfirmPass"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="@+id/vvSignupBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwPassword"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="196dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/inputbox"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:nextFocusDown="@+id/txtEmail"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vvSignupBox"
+        app:layout_constraintEnd_toEndOf="@+id/vvSignupBox"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="@+id/vvSignupBox"
+        app:layout_constraintTop_toTopOf="@+id/vvSignupBox"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="196dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/inputbox"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vvSignupBox"
+        app:layout_constraintEnd_toEndOf="@+id/vvSignupBox"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="@+id/vvSignupBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtName"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="196dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/inputbox"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/vvSignupBox"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="@+id/vvSignupBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <EditText
+        android:id="@+id/txtConfirmPass"
+        android:layout_width="196dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/inputbox"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vvSignupBox"
+        app:layout_constraintEnd_toEndOf="@+id/vvSignupBox"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="@+id/vvSignupBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="141dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button"
+        android:text="@string/sign_up"
+        android:textColor="@color/btnColor"
+        app:layout_constraintBottom_toBottomOf="@+id/vvSignupBox"
+        app:layout_constraintEnd_toEndOf="@+id/vvSignupBox"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/vvSignupBox"
+        app:layout_constraintTop_toBottomOf="@+id/txtConfirmPass"
+        app:layout_constraintVertical_bias="0.608" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

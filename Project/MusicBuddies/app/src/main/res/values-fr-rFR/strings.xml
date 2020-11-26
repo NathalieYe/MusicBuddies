@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- sign in  -->
+    <string name="app_name">Potes de Musique</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de Passe</string>
+    <string name="sign_in">SE CONNECTER</string>
+    <string name="sign_up">S\'INSCIRE</string>
+
+    <!-- sign up  -->
+    <string name="name">Prénom</string>
+    <string name="confirm_password">Confirmez votre mot de passe</string>
+
+    <!-- sign up profile 1  -->
+    <string name="profile">VOTRE PROFIL</string>
+    <string name="upload_photo">Télécharger une photo</string>
+    <string name="gender">Sexe</string>
+    <string name="birthday">Date de Naissance</string>
+    <string name="ddmmyy">JJ/MM/AAAA</string>
+    <string name="favorite_genre">Genre Préféré</string>
+    <string name="favorite_artist">Artiste Préféré</string>
+    <string name="bio">Bio</string>
+    <string name="next">SUIVANT</string>
+
+    <!-- sign up profile 2  -->
+    <string name="add_your_music_playlists">Ajoutez Vos Playlists</string>
+    <string name="add_spotify_playlist">+ PLAYLIST SPOTIFY </string>
+    <string name="previous">PRÉCÉDENT</string>
+    <string name="pause_playlist">METTRE EN PAUSE</string>
+    <string name="play_playlist">JOUER LA PLAYLIST</string>
+    <string name="currently_playing">Chanson en Cours:</string>
+    <string name="none">Aucune</string>
+    <string name="enter_youtube_playlist_url">Entrez l\'URL de la Playlist Youtube:</string>
+    <string name="enter_spotify_playlist_url">Entrez l\'URL de Spotify:</string>
+    <string name="playlist_must_be_public">La playlist doit être publique.</string>
+    <string name="add_youtube_playlist">+ PLAYLIST YOUTUBE</string>
+    <string name="confirm">Confirmer</string>
+    <string-array name="genders">
+        <item>Autre</item>
+        <item>Femme</item>
+        <item>Homme</item>
+    </string-array>
+    <string name="toast">Veuillez vous connecter à Spotify sur votre dispositif pour lire la playlist</string>
+
+    <!-- edit preferences  -->
+    <string name="preferences">PRÉFÉRENCES</string>
+    <string name="preference_info">J\'amerais rencontrer...</string>
+    <string name="genre">Genre</string>
+    <string-array name="gendersPref">
+        <item>Tout</item>
+        <item>Femme</item>
+        <item>Homme</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="genres">
+        <item>Tout</item>
+        <item>Pop</item>
+        <item>Country</item>
+        <item>Rock</item>
+        <item>Jazz</item>
+        <item>Folklorique</item>
+        <item>Électronique</item>
+        <item>Punk</item>
+        <item>Blues</item>
+        <item>Instrumentale</item>
+        <item>Gospel</item>
+        <item>Indie</item>
+    </string-array>
+
+    <!-- edit profile  -->
+    <string name="edit_profile">MODIFIER VOTRE PROFIL</string>
+
+    <!-- all chats  -->
+    <string name="chats">DISCUSSIONS</string>
+    <string name="match">JUMELÉS</string>
+
+    <!-- swipe page  -->
+    <string name="find_buddies">TROUVER VOS POTES</string>
+    <string name="age">Age</string>
+    <string name="distance">Distance</string>
+    <string name="playlists">Playlists</string>
+    <string name="play_youtube">LIRE YOUTUBE</string>
+
+    <string name="play_spotify_playlist">Lire Playlist Spotify</string>
+    <string name="pause_spotify_playlist">Mettre en Pause</string>
+    <string name= "swipe_left">Glisser à Droite Pour Aimer</string>
+    <string name= "swipe_right">Glisser à Gauche Pour Voir La Prochaine</string>
+
+    <!-- settings  -->
+    <string name="settings">RÉGLAGES</string>
+    <string name="delete_account">SUPPRIMER VOTRE COMPTE</string>
+    <string name="logout">SE DÉCONNECTER</string>
+
+    <string name="open">Ouvrir</string>
+    <string name="close">Fermer</string>
+
+    <!-- sliding / hamburger menu  -->
+    <string name="edit_preferences">MODIFIER LES PRÉFÉRENCES</string>
+
+    <!-- Toasts  -->
+    <string name="you_cant_send_empty_messages">Vous ne pouvez pas envoyer de messages vides.</string>
+    <string name="preferences_updated">Préférences mises à jour</string>
+    <string name="playlist_url_is_invalid">Playlist URL est invalide</string>
+    <string name="profile_updated">Profil mis à jour</string>
+    <string name="image_uploaded">Image téléchargée</string>
+    <string name="image_not_uploaded">Image non téléchargée</string>
+    <string name="press_play_to_listen">Appuyez sur Play pour écouter!</string>
+    <string name="account_deleted">Compte supprimé</string>
+    <string name="unable_to_delete_account">Impossible de supprimer le compte. Connectez-vous à nouveau pour supprimer.</string>
+    <string name="please_enter_your_email">Veuillez entrer votre email.</string>
+    <string name="please_enter_your_password">Veuillez entrer votre mot de passe.</string>
+    <string name="authentication_failed">Authentification échouée</string>
+    <string name="password_is_too_short">Le mot de passe est trop court</string>
+    <string name="password_is_not_the_same">Le mot de passe n\'est pas le même</string>
+    <string name="please_fill_in_empty_fields">Veuillez remplir les champs vides</string>
+    <string name="youtube_playlist_updated">Liste de lecture YouTube mise à jour</string>
+    <string name="no_playlist_available">Aucune liste de lecture disponible</string>
+    <string name="no_more_users">Plus d\'utilisateurs</string>
+    <string name="input_spotify">Veuillez saisir une playlist Spotify</string>
+    <string name="input_youtube">Veuillez saisir une playlist YouTube</string>
+
+</resources>
